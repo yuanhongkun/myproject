@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>food</title>
+    <link rel="stylesheet" href="/static/css/reset.css" type="text/css"> 
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script type="text/javascript" src="/static/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/static/js/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="/static/js/scrolltopcontrol.js"></script>
+<script>
+	TouchSlide({ 
+			slideCell:"#slideBox",
+			titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPage:true,//自动分页
+			autoPlay:true, //自动播放
+		});
+</script>

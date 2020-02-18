@@ -1,0 +1,613 @@
+[2019-11-04 17:14] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-04 17:14] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-04 17:14] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-04 17:14] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-04 17:14] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-04 17:16] SELECT * FROM pre_cate1234567 AS cate1234567  (Table 'ask.pre_cate1234567' doesn't exist) 
+[2019-11-06 15:38] SELECT COUNT(id) AS c FROM pre_user_log AS user_log WHERE userid =   (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1) 
+[2019-11-07 14:25] INSERT INTO pre_Array (``)VALUES('') (Table 'ask.pre_array' doesn't exist) 
+[2019-11-08 17:37] SELECT * FROM pre_auth_rule AS auth_rule ORDER BY weight asc level asc  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'level asc' at line 1) 
+[2019-11-11 14:25] SELECT group.*,count(admin.id) AS num FROM pre_auth_group AS auth_group LEFT JOIN pre_admin AS admin ON group.id = admin.groupid  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group.*,count(admin.id) AS num FROM pre_auth_group AS auth_group LEFT JOIN pre_a' at line 1) 
+[2019-11-11 14:27] SELECT auth_group.*,count(admin.id) AS num FROM pre_auth_group AS auth_group  (Unknown column 'admin.id' in 'field list') 
+[2019-11-11 14:29] SELECT auth_group FROM pre_auth_group AS auth_group  (Unknown column 'auth_group' in 'field list') 
+[2019-11-11 15:48] SELECT * FROM pre_auth_rule AS auth_rule ORDER BY weight asc WHERE id IN(12,1,7,8,13,18,2,3,4,5,9,10,11,14,15,16,17)  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id IN(12,1,7,8,13,18,2,3,4,5,9,10,11,14,15,16,17)' at line 1) 
+[2019-12-03 12:00] SELECT * FROM pre_config AS config  (Table 'food.pre_config' doesn't exist) 
+[2019-12-04 12:01] SELECT food.*,cate.name FROM pre_food AS food LEFT JOIN pre_cate AS cate ON food.cateid = cate.id WHERE id = 1  (Column 'id' in where clause is ambiguous) 
+[2019-12-16 14:04] INSERT INTO pre_user_address (`userid`,`consignee`,`province`,`city`,`district`,`info`,`mobile`,`status`)VALUES('2','李四','3','37','410','广东茂名化州笪桥黄京袅村','18153843001','0') (Unknown column 'info' in 'field list') 
+[2019-12-16 15:06] SELECT * FROM pre_region AS region WHERE parent_id =   (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1) 
+[2019-12-19 14:49] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=1  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=1  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=1  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=2  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=3  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=4  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=2  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 14:50] SELECT * FROM pre_cart AS cart WHERE userid=1 and fooid=4  (Unknown column 'fooid' in 'where clause') 
+[2019-12-19 15:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:45] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:46] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:55] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:55] SELECT * FROM pre_user_address AS user_address WHERE userid=1 AND tatus =1   (Unknown column 'tatus' in 'where clause') 
+[2019-12-19 15:56] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 15:56] SELECT * FROM pre_user_address AS user_address WHERE userid=1 AND tatus =1   (Unknown column 'tatus' in 'where clause') 
+[2019-12-19 16:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:01] SELECT * FROM pre_user_address AS user_address WHERE userid=1 AND tatus =1   (Unknown column 'tatus' in 'where clause') 
+[2019-12-19 16:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:06] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:08] SELECT * FROM pre_cart AS cart WHERE id IN(,,)  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1) 
+[2019-12-19 16:08] SELECT * FROM pre_cart AS cart WHERE id IN(,,)  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1) 
+[2019-12-19 16:10] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:11] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:11] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:12] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:15] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:15] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:15] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:18] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:21] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:36] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-19 16:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:13] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:19] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:20] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:25] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:29] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:29] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:30] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:30] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 14:44] start transation (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'transation' at line 1) 
+[2019-12-20 14:45] start transation (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'transation' at line 1) 
+[2019-12-20 15:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 15:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-20 16:48] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 12:02] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 12:02] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 12:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:11] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:13] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:13] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:28] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 14:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 15:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 15:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 15:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 15:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 16:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 16:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-21 16:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-27 11:23] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 11:26] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 11:27] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 11:28] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 11:30] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 11:30] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 19:32] SELECT * FROM pre_food AS food WHERE cateid = 12 and  LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 6' at line 1) 
+[2019-12-27 19:38] SELECT * FROM pre_food AS food WHERE cateid = 12 and name LIKE %苹果% LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%苹果% LIMIT 6' at line 1) 
+[2019-12-27 19:41] SELECT * FROM pre_food AS food WHERE cateid = 12 and name LIKE %苹果% LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%苹果% LIMIT 6' at line 1) 
+[2019-12-27 19:53] SELECT * FROM pre_food AS food WHERE cateid = 12 and name LIKE %苹果% LIMIT 6 (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%苹果% LIMIT 6' at line 1) 
+[2019-12-28 14:26] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 14:27] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 14:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 14:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 16:01] SELECT food.*,foodcate.id,foodcate.typeid,foodtype.id,foodattr.* FROM pre_food AS food LEFT JOIN pre_foodcate AS foodcate ON food.cateid=foodcate.id LEFT JOIN pre_foodtype AS foodtype ON foodcate.typeid=foodtype.id LEFT JOIN pre_foodattr AS foodattr ON foodtype.id=foodattr.typeid WHERE id=5  (Column 'id' in where clause is ambiguous) 
+[2019-12-28 16:01] SELECT food.*,foodcate.id,foodcate.typeid,foodtype.id,foodattr.* FROM pre_food AS food LEFT JOIN pre_foodcate AS foodcate ON food.cateid=foodcate.id LEFT JOIN pre_foodtype AS foodtype ON foodcate.typeid=foodtype.id LEFT JOIN pre_foodattr AS foodattr ON foodtype.id=foodattr.typeid WHERE id=5  (Column 'id' in where clause is ambiguous) 
+[2019-12-28 16:02] SELECT food.*,foodcate.id,foodcate.typeid,foodtype.id,foodattr.* FROM pre_food AS food LEFT JOIN pre_foodcate AS foodcate ON food.cateid=foodcate.id LEFT JOIN pre_foodtype AS foodtype ON foodcate.typeid=foodtype.id LEFT JOIN pre_foodattr AS foodattr ON foodtype.id=foodattr.typeid WHERE id=2  (Column 'id' in where clause is ambiguous) 
+[2019-12-28 16:13] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 16:18] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-28 16:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 12:56] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 12:56] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 13:46] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 14:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 14:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 14:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2019-12-29 15:04] SELECT foodcate.*,food.name as foodname,food.cateid FROM pre_foodcate AS foodcate LEFT JOIN pre_food AS food ON foodcate.id=food.cateid WHERE foodname LIKE %苹果%  (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%苹果%' at line 1) 
+[2019-12-29 15:05] SELECT foodcate.*,food.name as foodname,food.cateid FROM pre_foodcate AS foodcate LEFT JOIN pre_food AS food ON foodcate.id=food.cateid WHERE foodname LIKE '%苹果%'  (Unknown column 'foodname' in 'where clause') 
+[2019-12-29 15:11] SELECT * FROM pre_food AS food WHERE cateid = 12name LIKE '%苹果%' LIMIT 6 (Unknown column '12name' in 'where clause') 
+[2020-01-05 20:41] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:42] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:42] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:43] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:47] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 20:56] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 21:00] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-05 21:12] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:28] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:28] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:31] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:32] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:41] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:41] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:43] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:45] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:50] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:52] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:54] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:54] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 11:58] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:00] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:02] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:02] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:05] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:09] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:22] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:25] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:25] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-07 12:26] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:33] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:35] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:39] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:39] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:39] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:40] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:41] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:42] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:43] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 00:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:18] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:24] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:25] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:25] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:43] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:45] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:46] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:46] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:46] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:48] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:50] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:50] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:53] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:54] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 01:59] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:00] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:01] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:04] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:05] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:15] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:23] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:23] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:36] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:38] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:44] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:47] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:47] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:48] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:50] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:51] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:53] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:54] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:55] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:57] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 02:57] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:03] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:06] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:07] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:08] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:09] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:10] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:15] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:26] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:27] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:29] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 03:36] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:05] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:06] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:35] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:35] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:36] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:36] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 06:38] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 07:37] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 07:42] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 07:43] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 07:52] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 07:57] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 08:17] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 08:17] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-08 08:17] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 01:56] SELECT * FROM pre_foodcate AS foodcate WHERE cateid=24  (Unknown column 'cateid' in 'where clause') 
+[2020-01-09 02:00] SELECT * FROM pre_foodcate AS foodcate WHERE cateid=24  (Unknown column 'cateid' in 'where clause') 
+[2020-01-09 02:01] SELECT * FROM pre_foodcate AS foodcate WHERE cateid=24  (Unknown column 'cateid' in 'where clause') 
+[2020-01-09 10:03] SELECT * FROM pre_foodcate AS foodcate WHERE cateid=24  (Unknown column 'cateid' in 'where clause') 
+[2020-01-09 10:04] SELECT * FROM pre_foodcate AS foodcate WHERE cateid=24  (Unknown column 'cateid' in 'where clause') 
+[2020-01-09 10:08] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 10:08] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 10:08] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 10:10] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 10:29] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-09 10:30] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
+[2020-01-10 18:41] SELECT address.*,province.region_name AS provinceName,city.region_name AS cityName,district.region_name AS districtName
+   FROM pre_user_address AS address LEFT JOIN pre_region AS province ON address.province = province.region_id  LEFT JOIN pre_region
+    AS city ON address.city = city.region_id  LEFT JOIN pre_region AS district ON address.district = district.region_id WHERE address.id = 0 () 
